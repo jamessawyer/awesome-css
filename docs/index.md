@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /layout/index.html
+      link: /layouts/flex/index.html
     - theme: alt
       text: View on GitHub
       link: https://github.com/jamessawyer/awesome-css
