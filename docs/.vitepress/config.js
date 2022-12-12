@@ -4,6 +4,7 @@ const nav = [
     items: [
       { text: 'Flexbox', link: '../layouts/flex/index' },
       { text: 'Grid', link: '../layouts/grid/index' },
+      { text: '响应式布局', link: '../layouts/responsive/index' },
     ]
   },
   { text: '🥥 CSS工具', link: '../tools/index' },
@@ -39,7 +40,15 @@ const sidebar_layouts = {
         { text: '资源', link: '/layout/grid/index' },
       ]
     },
-  ]
+  ],
+  '/layouts/responsive': [
+    {
+      text: '响应式布局',
+      items: [
+        { text: '教程', link: '/layout/responsive/index' }
+      ]
+    }
+  ],
 }
 
 
