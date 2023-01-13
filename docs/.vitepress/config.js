@@ -9,6 +9,7 @@ const nav = [
     ]
   },
   { text: '🥥 CSS工具', link: '../tools/index' },
+  { text: '🍌 框架', link: '../libs/index' },
 ]
 
 const sidebar_tools = {
