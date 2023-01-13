@@ -59,48 +59,23 @@ Grid属性及其的多，且容易混淆，尤其是各种属性也类似，因�
 
    - 包含其余一些关于Grid相关的教程和资源🔥
 
-3. [Grid auto-fill vs auto-fit](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) 都可用于完成类似 `flex-wrap: wrap` 自动换行的功能，它们之间行为存在差异：
+3. [🚀🚀 Grid By Example](https://gridbyexample.com/) 包含Grid相关大量的示例和视频，以及图解，必看🔥
 
-   ```css
-   .grid-container {
-       display: grid;
-   }
-   
-   .grid-container--fill {
-       grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-   }
-   
-   .grid-container--fit {
-       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-   }
-   ```
+4. [💯 CSS Grid Garden](https://cssgridgarden.com/) 通过游戏的方式学习Grid属性
 
-   - `auto-fill`: 填充该row，尽可能的添加更多columns。不在乎是否存在空的columns
-   - `auto-fit`: 将你所拥有的任何列放入可用空间中。根据需要将它们展开以适应row大小。空列不能占用任何空间。通过扩展填充的列(如:填充内容/网格项)来更好地利用这些空间，以适应可用的行空间。
+5. [The CSS behind Figma - @ishadeed.com](https://ishadeed.com/article/figma-css/) 介绍了Figma中如何使用Flexbox & Grid进行布局的
 
-   <iframe height="300" style="width: 100%;" scrolling="no" title="auto-fill vs auto-fit" src="https://codepen.io/SaraSoueidan/embed/preview/JrLdBQ?default-tab=result&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-     See the Pen <a href="https://codepen.io/SaraSoueidan/pen/JrLdBQ">
-     auto-fill vs auto-fit</a> by Sara Soueidan (<a href="https://codepen.io/SaraSoueidan">@SaraSoueidan</a>)
-     on <a href="https://codepen.io">CodePen</a>.
-   </iframe>
+## 工具
 
-   4. [💯 CSS Grid Garden](https://cssgridgarden.com/) 通过游戏的方式学习Grid属性
-   5. [The CSS behind Figma - @ishadeed.com](https://ishadeed.com/article/figma-css/) 介绍了Figma中如何使用Flexbox & Grid进行布局的
+1. [Grid Cheatsheet online](https://yoksel.github.io/grid-cheatsheet/#section-display) 通过各种按钮选择，来理解grid属性的用法，包含所有属性语法
+2. [CSS Grid Generator](https://cssgrid-generator.netlify.app/) 在线边界Grid格子，然后生成代码
+3. [Grid.layoutit](https://grid.layoutit.com/) 这个也是在线生成代码，比上面的功能更强大一些😎
 
-   
 
-   ## 工具
 
-   1. [Grid Cheatsheet online](https://yoksel.github.io/grid-cheatsheet/#section-display) 通过各种按钮选择，来理解grid属性的用法，包含所有属性语法
-   2. [CSS Grid Generator](https://cssgrid-generator.netlify.app/) 在线边界Grid格子，然后生成代码
-   3. [Grid.layoutit](https://grid.layoutit.com/) 这个也是在线生成代码，比上面的功能更强大一些😎
 
-   
 
-   
+2022年12月27日15:35:45
 
-   2022年12月27日15:35:45
 
-   
 
-   

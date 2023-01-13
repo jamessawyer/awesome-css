@@ -37,7 +37,8 @@ const sidebar_layouts = {
     { 
       text: 'Grid布局',
       items: [
-        { text: '资源', link: '/layout/grid/index' },
+        { text: '资源', link: '/layouts/grid/index' },
+        { text: '实战', link: '/layouts/grid/action' },
       ]
     },
   ],
