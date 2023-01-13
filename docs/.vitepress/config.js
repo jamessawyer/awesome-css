@@ -1,4 +1,5 @@
 const nav = [
+  { text: '🍏 Daily', link: '../daily/index' },
   { 
     text: '🍓 Layouts', 
     items: [
