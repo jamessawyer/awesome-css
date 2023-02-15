@@ -8,6 +8,7 @@ const nav = [
       { text: '响应式布局', link: '../layouts/responsive/index' },
     ]
   },
+  { text: '🍒 动画', link: '../animation/theory' },
   { text: '🥥 CSS工具', link: '../tools/index' },
   { text: '🍌 框架', link: '../libs/index' },
 ]
@@ -15,7 +16,7 @@ const nav = [
 const sidebar_tools = {
   '/tools/': [
     {
-      text: '🍒 CSS工具',
+      text: '🥥 CSS工具',
       items: [
         { text: '工具索引', link: '/tools/index' },
         { text: 'box-shadow生成', link: '/tools/shadow' },
@@ -54,10 +55,22 @@ const sidebar_layouts = {
   ],
 }
 
+const sidebar_animation = {
+  '/animation/': [
+    {
+      text: '🏎️ 动画',
+      items: [
+        { text: '动画理论', link: '/animation/theory' },
+      ]
+    }
+  ]
+}
+
 
 const sidebar = {
   ...sidebar_layouts,
   ...sidebar_tools,
+  ...sidebar_animation,
 }
 
 export default {
