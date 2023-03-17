@@ -24,6 +24,12 @@ const sidebar_tools = {
         { text: '组件Snippets', link: '/tools/components' },
         { text: 'Curves形状', link: '/tools/curves' },
       ]
+    },
+    {
+      text: '🍇 UI',
+      items: [
+        { text: 'CSS UI', link: '/tools/ui' },
+      ]
     }
   ],
 }
