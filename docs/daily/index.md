@@ -23,6 +23,7 @@ CSS周刊：
 Blog:
 
 1. [https://www.joshwcomeau.com/](https://www.joshwcomeau.com/) 交互式博客，对概念的讲解非常的直观
+1. [https://ishadeed.com/](https://ishadeed.com/) 图文解释每种效果的步骤
 
 
 
