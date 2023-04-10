@@ -9,6 +9,7 @@ const nav = [
     ]
   },
   { text: '🍒 动画', link: '../animation/theory' },
+  { text: '🍉 高级CSS', link: '../advanced/index' },
   { text: '🥥 CSS工具', link: '../tools/index' },
   { text: '🍌 框架', link: '../libs/index' },
 ]
@@ -72,11 +73,23 @@ const sidebar_animation = {
   ]
 }
 
+const sidebar_advanced = {
+  '/advanced/': [
+    {
+      text: 'CSS Advanced',
+      items: [
+        { text: '高级CSS', link: '/advanced/index' },
+        { text: '高级CSS属性', link: '/advanced/props' },
+      ]
+    }
+  ]
+}
 
 const sidebar = {
   ...sidebar_layouts,
   ...sidebar_tools,
   ...sidebar_animation,
+  ...sidebar_advanced,
 }
 
 export default {
