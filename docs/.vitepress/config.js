@@ -1,17 +1,17 @@
 const nav = [
-  { text: '🍏 Daily', link: '../daily/index' },
+  { text: '🍏 Daily', link: '/daily/index' },
   { 
     text: '🍓 Layouts', 
     items: [
-      { text: 'Flexbox', link: '../layouts/flex/index' },
-      { text: 'Grid', link: '../layouts/grid/index' },
-      { text: '响应式布局', link: '../layouts/responsive/index' },
+      { text: 'Flexbox', link: '/layouts/flex/index' },
+      { text: 'Grid', link: '/layouts/grid/index' },
+      { text: '响应式布局', link: '/layouts/responsive/index' },
     ]
   },
-  { text: '🍒 动画', link: '../animation/theory' },
-  { text: '🍉 高级CSS', link: '../advanced/index' },
-  { text: '🥥 CSS工具', link: '../tools/index' },
-  { text: '🍌 框架', link: '../libs/index' },
+  { text: '🍒 动画', link: '/animation/theory' },
+  { text: '🍉 高级CSS', link: '/advanced/index' },
+  { text: '🥥 CSS工具', link: '/tools/index' },
+  { text: '🍌 框架', link: '/libs/index' },
 ]
 
 const sidebar_tools = {
