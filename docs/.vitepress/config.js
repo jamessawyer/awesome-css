@@ -48,6 +48,7 @@ const sidebar_layouts = {
       text: 'Grid布局',
       items: [
         { text: '资源', link: '/layouts/grid/index' },
+        { text: '概念', link: '/layouts/grid/concept' },
         { text: '实战', link: '/layouts/grid/action' },
       ]
     },
